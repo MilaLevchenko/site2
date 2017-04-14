@@ -1,4 +1,4 @@
-﻿.row {
+﻿#services .row {
   text-align: center;
 }
 #header-bottom {
@@ -19,10 +19,20 @@
 }
 
 /*Блок об услугах компании*/
-
+#method>.row{
+  background-color: #f3f3f3;
+}
 /*Блок об основных методах компании*/
 
+.thumbnail {
+  position: relative;
+  padding: 0px;
+  margin-bottom: 20px;
+}
 
+.thumbnail img {
+  width: 100%;
+}
 
 
 
