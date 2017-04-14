@@ -50,23 +50,21 @@
 .bar {
   text-align: center;
   border: 1px solid #aaaaaa;
-  margin: 35px 10px;
-  padding: 30px 25px;
+  margin: 35px 5px;
+  padding: 30px 10px;
   border-radius: 3px;
+  position: relative;
 }
 #method {
   background-color: #ffffff;
 }
-.bar:nth-child(1n) {
+.bar:nth-of-type(1n) {
   background-color: #865b94;
 }
-.bar:nth-child(2n) {
+.bar:nth-of-type(2n) {
   background-color: #517baa;
 }
-.bar {
-  position: relative;
-  text-align: center;
-}
+
 .number {
   position: absolute;
   top: -25px;
