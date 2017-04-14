@@ -58,10 +58,8 @@
 #method {
   background-color: #ffffff;
 }
-.bar:nth-of-type(1n) {
-  background-color: #865b94;
-}
-.bar:nth-of-type(2n) {
+
+.bar {
   background-color: #517baa;
 }
 
