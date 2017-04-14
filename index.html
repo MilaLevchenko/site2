@@ -6,78 +6,86 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style1.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 <body>
 <!-- Основной контейнер -->
 <div class="container">
-
-  <nav class="navbar navbar-default navbar-static-top" role="navigation">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-menu">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="bs-menu">
-      <ul class="nav navbar-nav">
-        <!-- Активный пункт меню "Главная" -->
-        <li class="active"><a href="#">Главная</a></li>
-        <!-- Пункт меню "О компании" -->
-        <li><a href="#main">О компании</a></li>
-        <!-- Пункт меню "Наш метод" -->
-        <li><a href="#method">Наш методы</a></li>
-        <!-- Пункт меню "Наши проекты" -->
-        <li><a href="#work">Наши проекты</a></li>
-      </ul>
-      <!-- Список, выровненный по правому краю -->
-      <ul class="nav navbar-nav navbar-right">
-        <!-- Пункт меню "Бесплатная консультация" -->
-        <li><a  href="#" style="padding-top:8px; padding-bottom:8px;">
-          <span class="btn btn-danger"><strong>Бесплатная консультация</strong></span></a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div id="header-bottom" style="position:relative;">
-    <img src="images/banner_nav.jpg" style="width:100%;">
-    <div id="bannertext" style="position:absolute; top:10%; width:100%; text-align:center; color:white;">
-      <div class="hidden-xs">
-        <h1>Мы предлагаем<br />
-          <small style="color: white;">маркетинг в социальных сетях для бизнеса</small>
-        </h1>
+  <div class="row">
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
-      <div class="hidden-sm hidden-md hidden-lg">
-        <p class="lead">Мы предлагаем маркетинг в социальных сетях для бизнеса</p>
+      <div class="collapse navbar-collapse" id="bs-menu">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Главная</a></li>
+          <li><a href="#main">О компании</a></li>
+          <li><a href="#method">Наш методы</a></li>
+          <li><a href="#work">Наши проекты</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right" role="search">
+          <li>
+            <form class="navbar-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Введите значение">
+              </div>
+              <button type="search" class="btn btn-default">Поиск</button>
+            </form>
+          </li>
+        </ul>
+
       </div>
-      <a class="btn btn-danger btn-lg">Оставить заявку</a>
+    </nav>
+  </div>
+  <div class="row">
+    <div id="header-bottom" style="position:relative">
+      <img src="images/banner.jpg" style="width:100%;">
+      <div id="bannertext" style="position:absolute; top:40%; width:100%; text-align:center; color:white;">
+        <div class="hidden-xs">
+          <h1>Мы предлагаем<br/>
+            <small style="color: white;">маркетинг в социальных сетях для бизнеса</small>
+          </h1>
+        </div>
+        <div class="hidden-sm hidden-md hidden-lg">
+          <p class="lead">Мы предлагаем маркетинг в социальных сетях для бизнеса</p>
+        </div>
+        <a class="btn btn-danger btn-md">Оставить заявку</a>
+      </div>
     </div>
   </div>
-
   <!-- Блок об услугах компании -->
   <div id="main">
-   <div class="row" style="text-align:center;">
-     <h2>О компании</h2>
+    <div class="row" style="text-align:center;">
+      <h2>О компании</h2>
       <p class="lead">Наши основные услуги</p>
-      <hr />
+      <hr/>
       <div class="col-md-4">
         <img src="images/img-1.png">
         <h3>Маркетинг Facebook</h3>
-        <p>Facebook насчитывает более 1 миллиарда пользователей. Наша компания занимается изучением этой аудитории для продвижения Вашего бизнеса с помощью брендированных страниц и рекламы. Мы сделаем всё возможное для процветания Вашей компании.</p>
+        <p>Facebook насчитывает более 1 миллиарда пользователей. Наша компания занимается изучением этой аудитории для
+          продвижения Вашего бизнеса с помощью брендированных страниц и рекламы. Мы сделаем всё возможное для
+          процветания Вашей компании.</p>
       </div>
       <div class="col-md-4">
         <img src="images/img-2.png">
         <h3>Создание страниц</h3>
-        <p>Facebook насчитывает более 1 миллиарда пользователей. Наша компания занимается изучением этой аудитории для продвижения Вашего бизнеса с помощью брендированных страниц и рекламы. Мы сделаем всё возможное для процветания Вашей компании.</p>
+        <p>Facebook насчитывает более 1 миллиарда пользователей. Наша компания занимается изучением этой аудитории для
+          продвижения Вашего бизнеса с помощью брендированных страниц и рекламы. Мы сделаем всё возможное для
+          процветания Вашей компании.</p>
       </div>
       <div class="col-md-4">
         <img src="images/img-3.png">
         <h3>Управление рекламой</h3>
-        <p>Facebook насчитывает более 1 миллиарда пользователей. Наша компания занимается изучением этой аудитории для продвижения Вашего бизнеса с помощью брендированных страниц и рекламы. Мы сделаем всё возможное для процветания Вашей компании.</p>
+        <p>Facebook насчитывает более 1 миллиарда пользователей. Наша компания занимается изучением этой аудитории для
+          продвижения Вашего бизнеса с помощью брендированных страниц и рекламы. Мы сделаем всё возможное для
+          процветания Вашей компании.</p>
       </div>
     </div>
   </div>
@@ -87,7 +95,7 @@
     <div class="row" style="text-align:center; background:#f3f3f3;">
       <h2>Наши методы</h2>
       <p class="lead">Наш метод шаг за шагом (как мы это делаем)</p>
-      <hr />
+      <hr/>
       <!-- First block -->
       <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
 background: #FFF; border-radius: 3px;">
@@ -96,9 +104,11 @@ background: #FFF; border-radius: 3px;">
         </li>
         <li class="list1_desc" style="float:left; width:61%; margin-left:1em;">
           <h3>Шаг 1: Название заголовка</h3>
-          <p>Мы используем инвестиционный метод, который заключается в комплексном анализе вашего бизнеса для его продвижения. Мы начинаем с изучения преимуществ Вашей компании перед конкурентами. Составляет несколько бизнес-планов на усмотрения заказчика и контролируем весь процесс.</p>
+          <p>Мы используем инвестиционный метод, который заключается в комплексном анализе вашего бизнеса для его
+            продвижения. Мы начинаем с изучения преимуществ Вашей компании перед конкурентами. Составляет несколько
+            бизнес-планов на усмотрения заказчика и контролируем весь процесс.</p>
         </li>
-        <div class="clearfix"> </div>
+        <div class="clearfix"></div>
       </ul>
       <!-- Second block -->
       <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
@@ -108,9 +118,11 @@ background: #FFF; border-radius: 3px;">
         </li>
         <li class="list1_desc" style="float:left; width:61%; margin-left:1em;">
           <h3>Шаг 2: Название заголовка</h3>
-          <p>Мы используем инвестиционный метод, который заключается в комплексном анализе вашего бизнеса для его продвижения. Мы начинаем с изучения преимуществ Вашей компании перед конкурентами. Составляет несколько бизнес-планов на усмотрения заказчика и контролируем весь процесс.</p>
+          <p>Мы используем инвестиционный метод, который заключается в комплексном анализе вашего бизнеса для его
+            продвижения. Мы начинаем с изучения преимуществ Вашей компании перед конкурентами. Составляет несколько
+            бизнес-планов на усмотрения заказчика и контролируем весь процесс.</p>
         </li>
-        <div class="clearfix"> </div>
+        <div class="clearfix"></div>
       </ul>
       <!-- Third block -->
       <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
@@ -120,9 +132,11 @@ background: #FFF; border-radius: 3px;">
         </li>
         <li class="list1_desc" style="float:left; width:61%; margin-left:1em;">
           <h3>Шаг 3: Название заголовка</h3>
-          <p>Мы используем инвестиционный метод, который заключается в комплексном анализе вашего бизнеса для его продвижения. Мы начинаем с изучения преимуществ Вашей компании перед конкурентами. Составляет несколько бизнес-планов на усмотрения заказчика и контролируем весь процесс.</p>
+          <p>Мы используем инвестиционный метод, который заключается в комплексном анализе вашего бизнеса для его
+            продвижения. Мы начинаем с изучения преимуществ Вашей компании перед конкурентами. Составляет несколько
+            бизнес-планов на усмотрения заказчика и контролируем весь процесс.</p>
         </li>
-        <div class="clearfix"> </div>
+        <div class="clearfix"></div>
       </ul>
       <!-- Fourth block -->
       <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
@@ -132,9 +146,11 @@ background: #FFF; border-radius: 3px;">
         </li>
         <li class="list1_desc" style="float:left; width:61%; margin-left:1em;">
           <h3>Шаг 4: Название заголовка</h3>
-          <p>Мы используем инвестиционный метод, который заключается в комплексном анализе вашего бизнеса для его продвижения. Мы начинаем с изучения преимуществ Вашей компании перед конкурентами. Составляет несколько бизнес-планов на усмотрения заказчика и контролируем весь процесс.</p>
+          <p>Мы используем инвестиционный метод, который заключается в комплексном анализе вашего бизнеса для его
+            продвижения. Мы начинаем с изучения преимуществ Вашей компании перед конкурентами. Составляет несколько
+            бизнес-планов на усмотрения заказчика и контролируем весь процесс.</p>
         </li>
-        <div class="clearfix"> </div>
+        <div class="clearfix"></div>
       </ul>
     </div>
   </div>
@@ -148,7 +164,7 @@ background: #FFF; border-radius: 3px;">
       <!-- Создание дополнительного текста под заголовком -->
       <p class="lead">Наши избранные работы</p>
       <!-- Создание горизонтальной полосы -->
-      <hr />
+      <hr/>
       <!-- Создание 1 блока -->
       <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
 background: #FFF; border-radius: 3px; color:black;">
@@ -163,7 +179,7 @@ background: #FFF; border-radius: 3px; color:black;">
           <img src="images/w1.png" class="img-responsive">
         </li>
         <!-- Блок для очистки потока и правильного отображения последующих блоков -->
-        <div class="clearfix"> </div>
+        <div class="clearfix"></div>
       </ul>
       <!-- Создание 2 блока -->
       <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
@@ -174,7 +190,7 @@ background: #FFF; border-radius: 3px; color:black;">
         <li class="list1_img" style="float:left; width: 75%; margin-left:1em;">
           <img src="images/w2.png" class="img-responsive">
         </li>
-        <div class="clearfix"> </div>
+        <div class="clearfix"></div>
       </ul>
       <!-- Создание 3 блока -->
       <ul style="list-style:none; margin:15px; padding:10px; box-shadow:0 0 5px #aaa;
@@ -185,14 +201,18 @@ background: #FFF; border-radius: 3px; color:black;">\
         <li class="list1_img" style="float:left; width: 75%; margin-left:1em;">
           <img src="images/w3.png" class="img-responsive">
         </li>
-        <div class="clearfix"> </div>
+        <div class="clearfix"></div>
       </ul>
     </div>
   </div>
 
 </div>
 
-<footer></footer>
+<footer>
+  <div style="text-align:right; background:#2a2a2a; padding:1em; color: #fff;">
+    © Bussines.ru <br>2010-2014
+  </div>
+</footer>
 
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
