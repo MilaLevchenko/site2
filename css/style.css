@@ -68,3 +68,26 @@
   top: -25px;
 
 }
+
+
+#work .thumbnail {
+  position:relative;
+  overflow:hidden;
+}
+
+#work .caption {
+  position:absolute;
+  top:0;
+  right:0;
+  background: rgba(135, 135, 135, 0.75);
+  width:100%;
+  height:100%;
+  padding: 15% 2%;
+  display: none;
+  text-align:center;
+  color:#fff;
+  z-index:2;
+}
+.workhidden {
+  padding: 0.5%;
+}
