@@ -50,26 +50,20 @@
 .bar {
   text-align: center;
   border: 1px solid #aaaaaa;
-  margin: 35px 5px;
-  padding: 30px 10px;
+  margin: 20% 2% 15%;
+  padding: 8% 2%;
   border-radius: 3px;
   position: relative;
-}
-#method {
-  background-color: #ffffff;
-}
-
-.bar {
   background-color: #517baa;
 }
 
+#method {
+  background-color: #ffffff;
+}
 .number {
   position: absolute;
   top: -25px;
-
 }
-
-
 #work .thumbnail {
   position:relative;
   overflow:hidden;
@@ -93,4 +87,8 @@
 }
 #send {
   text-align: center;
+  padding-top: 5%;
+}
+h2 {
+  margin-top: 7%;
 }
