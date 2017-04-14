@@ -13,15 +13,6 @@ a:focus {
   text-decoration: underline;
 }
 
-li.fb a span {
-width: 30px;
-height: 30px;
-background: url(../images/img-sprite.png)no-repeat -59px -1px #1287BF;
-float: left;
-}
-
-
-
 ul.header_box li span {
 color: #555;
 }
