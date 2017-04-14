@@ -89,6 +89,7 @@
   text-align: center;
   padding-top: 5%;
 }
+
 h2 {
   margin-top: 7%;
 }
@@ -101,4 +102,17 @@ footer {
 
 .socialLinks {
   padding-left: 10%;
+}
+footer a,
+footer a:hover,
+footer a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+.coop {
+  color: #454545;
+}
+footer .btn:hover,
+footer .btn:focus {
+  color: #fff;
 }
