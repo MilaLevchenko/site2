@@ -92,3 +92,13 @@
 h2 {
   margin-top: 7%;
 }
+footer {
+  text-align: center;
+  background:#2a2a2a;
+  padding:1em;
+  color: #fff
+}
+
+.socialLinks {
+  padding-left: 10%;
+}
