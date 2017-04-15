@@ -96,25 +96,19 @@ h2 {
 footer {
   text-align: center;
   background:#2a2a2a;
-  padding:1em;
+  padding:2em 1em;
   color: #fff
 }
 
-.socialLinks {
-  padding-left: 10%;
-}
 footer a,
 footer a:hover,
 footer a:focus {
   color: #fff;
   text-decoration: none;
 }
-.coop {
-  color: #454545;
-}
-footer .btn:hover,
-footer .btn:focus {
-  color: #fff;
+.footer-contacts .my-email .fa-send-o::before,
+.footer-contacts .my-phone .glyphicon-phone::before{
+  color: #629637;
 }
 
 @media (max-width: 986px) {
@@ -122,6 +116,16 @@ footer .btn:focus {
   .footer-contacts .social .icon-so
   {
     display: none;
+  }
+}
+@media (max-width: 767px) {
+  .footer-contacts .social,
+  .footer-contacts .my-phone,
+  .footer-contacts .my-email,
+  .footer-copyright {
+    display: block;
+    margin-top: 2%;
+    margin-left: 0;
   }
 }
 .social [class*=icon-]  {
@@ -149,4 +153,12 @@ footer .btn:focus {
   color: #72966c;
 }
 
-
+.my-email,
+.my-phone {
+  font-size: 1.4em;
+  padding-top: 1%;
+}
+.footer-copyright {
+  padding-top: 1%;
+  color: #696969;
+}
