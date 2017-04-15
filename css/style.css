@@ -116,3 +116,11 @@ footer .btn:hover,
 footer .btn:focus {
   color: #fff;
 }
+
+@media (max-width: 986px) {
+  .footer-contacts .social .icon-g,
+  .footer-contacts .social .icon-so
+  {
+    display: none;
+  }
+}
