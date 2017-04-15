@@ -286,7 +286,11 @@ footer a:focus {
 }
 .owl-carousel .owl-stage {
   position: relative;
+  transform: translate3d(-1311px, 0px, 0px);
+  transition: 0s;
+  width: 4807px;
 }
+
 .hero-item {
   height: 100%;
   padding-top: 96px;
@@ -405,6 +409,19 @@ a, hr, input, select, textarea {
   left: 0;
   padding-bottom: 35px;
 }
+/*media for hero-box*/
+@media (max-width: 991px) {
+  .hero-box {
+    margin-top: 0;
+    height: 224px;
+  }
+}
+@media (max-width: 1199px) {
+  .hero-box {
+    height: 320px;
+  }
+}
+
 
 /*approach*/
 .approach {
@@ -566,3 +583,23 @@ a, hr, input, select, textarea {
       line-height: 1.5;
     }
   }
+@media (max-width: 767px) {
+  .hero-item_content {
+    width: auto;
+    max-width: 550px;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 767px) {
+  .hero-item.mod-project .hero-item_text {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 1199px) {
+  .hero-box .owl-nav,
+  .hero-item.mod-article .hero-item_info,
+  .hero-item.mod-project .hero-item_moveTo {
+    display: none;
+  }
+}
