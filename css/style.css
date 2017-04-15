@@ -165,6 +165,9 @@ footer a:focus {
     margin-left: 0;
   }
 }
+
+
+
 .social [class*=icon-]  {
   transition: color .3s linear;
 }
@@ -239,7 +242,16 @@ footer a:focus {
   margin-left: 518px;
 }
 
-
+@media (max-width: 1199px) {
+  .owl-carousel .owl-nav .owl-prev {
+    margin-right: 400px;
+  }
+}
+@media (max-width: 1199px) {
+  .owl-carousel .owl-nav .owl-next {
+    margin-left: 400px;
+  }
+}
 .mod-project {
   background-image: url("../images/banner.jpg");
 }
