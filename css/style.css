@@ -124,3 +124,29 @@ footer .btn:focus {
     display: none;
   }
 }
+.social [class*=icon-]  {
+  transition: color .3s linear;
+}
+.icon-vk:hover {
+  color: #2a6496;
+}
+.icon-gh:hover {
+  color: #914896;
+}
+.icon-bb:hover {
+  color: #629637;
+}
+.icon-f:hover {
+  color: #362796;
+}
+.icon-li:hover {
+  color: #96332c;
+}
+.icon-g:hover {
+  color: #969258;
+}
+.icon-so:hover {
+  color: #72966c;
+}
+
+
