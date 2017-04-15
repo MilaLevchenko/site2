@@ -231,7 +231,7 @@
 
   <div id="send">
     <div class="col-md-offset-2 col-md-8 ">
-      <h3>Мы будем рады помочь Вам в вашей работе</h3>
+      <h3>Мы будем рады помочь Вам</h3>
       <h4>Напишите нам</h4>
     </div>
 
@@ -240,36 +240,33 @@
         <div class="well well-sm">
           <form>
             <div class="row">
-              <div class="col-md-6">
-                <div class="form-group sendbox">
-                  <label>Представьтесь, пожалуйста</label>
+              <div class="col-md-6 sendbox">
+                <div class="form-group">
+                  <label for="name">Представьтесь, пожалуста</label>
+                  <input type="text" class="form-control" id="name" placeholder="Введите ваше Имя и Отчество" required="required">
+                </div>
+                <div class="form-group">
+                  <label for="email">Ваш email</label>
                   <div class="input-group">
-                   <input type="text" class="form-control" id="firstName" placeholder="Ваше имя"
-                         required="required">
-                   <input type="text" class="form-control" id="lastName" placeholder="Ваше отчество"
-                         required="required">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                    <input type="email" class="form-control" id="email" placeholder="Введите Ваш email" required="required">
                   </div>
                 </div>
-                <div class="form-group sendbox">
-                  <div class="input-group">
-                     <span class="input-group-addon">
-                       <span class="glyphicon glyphicon-envelope"></span>
-                     </span>
-                    <input type="email" class="form-control" id="email" placeholder="Email" required="required">
-                  </div>
-                </div>
-                <div class="form-group sendbox">
-                  <div class="input-group">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span>
-                                </span>
-                    <input type="phone" class="form-control" id="phone" placeholder="Телефон" required="required">
-                  </div>
+                <div class="form-group">
+                  <label for="subject">Что желаете обсудить</label>
+                  <select id="subject" name="subject" class="form-control" required="required">
+                    <option value="na" selected>Выберите тему письма:</option>
+                    <option value="service">Ваш проект</option>
+                    <option value="suggestions">Отзыв о компании</option>
+                    <option value="product">В поддержку сайта</option>
+                  </select>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 sendbox">
                 <div class="form-group">
-                  <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                            placeholder="Расскажите немного о проекте"></textarea>
+                  <label for="name">
+                    Message</label>
+                  <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
                 </div>
               </div>
               <div class="col-md-12">
@@ -324,7 +321,7 @@
 <script src="js/main.js"></script>
 <script>
   $(document).ready(function(){
-    $('body').append('<div id="toTop" ><img src="images/up.png"> </div>');
+    $('body').append('<div id="toTop" ><img src="images/up.png"></div>');
     $(window).scroll(function () {
       if ($(this).scrollTop() != 0) {
         $('#toTop').fadeIn();
