@@ -15,5 +15,15 @@ $( document ).ready(function() {
 });
 
 $(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    nav: true,
+    navText: ['<i class=" fa fa-chevron-left"></i>','<i class=" fa fa-chevron-right"></i>'],
+    responsiveClass:true,
+    pagination: true,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    items: 1
+  });
 });
+

@@ -7,6 +7,16 @@
   font-style: normal;
   font-weight: normal;
 }
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: 0 0;
+  display: block;
+}
 
 body {
   font-family: "UbuntuRegular", "Open Sans", Arial, sans-serif;
@@ -196,4 +206,167 @@ footer a:focus {
   left: 15px;
   cursor: pointer;
   display: none;
+}
+
+/*owlcarousel*/
+.owl-carousel{
+  width:100%;
+ z-index: 1;
+}
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  display: block;
+  top: 70%;
+  background: 0 0;
+  font-size: 52px;
+  color: #fff;
+  opacity: .25;
+  padding: 0;
+  margin-top: -26px;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  -webkit-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+}
+.owl-carousel .owl-nav .owl-prev {
+  right: 50%;
+  margin-right: 518px;
+}
+.owl-carousel .owl-nav .owl-next {
+  left: 50%;
+  margin-left: 518px;
+}
+
+.owl-theme .owl-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 15px;
+}
+.mod-project {
+  background-image: url("../images/banner.jpg");
+}
+
+
+.hero-box .item,
+.hero-box .owl-item,
+.hero-box .owl-stage,
+.hero-box .owl-stage-outer {
+  height: 100%;
+}
+
+.owl-carousel .owl-item {
+  position: relative;
+  min-height: 1px;
+  /*float: left;*/
+}
+.owl-carousel.owl-loaded {
+  display: block;
+}
+
+.hero-box {
+  margin-top: -68px;
+  position: relative;
+  height: 640px;
+  overflow: hidden;
+}
+
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+}
+.owl-carousel .owl-stage {
+  position: relative;
+}
+.hero-item {
+  height: 100%;
+  padding-top: 96px;
+  padding-bottom: 35px;
+  color: #fff;
+  background-color: #d3d3d3;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.h-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.h-table .h-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.hero-item_content {
+  width: 700px;
+  margin: auto;
+}
+.hero-item.mod-project .hero-item_text {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #fff;
+}
+.hero-item.mod-project .hero-item_action {
+  margin-top: 40px;
+}
+
+/*button*/
+.button.mod-fill,
+.header.is-active .button.mod-border {
+  border: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #fff;
+  background-color: #e53132;
+  -webkit-transition: background-color .2s ease;
+  transition: background-color .2s ease;
+}
+
+.button {
+  min-width: 200px;
+  height: 36px;
+  padding: 0 20px;
+  display: inline-block;
+  cursor: pointer;
+/*  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;*/
+  outline: 0;
+  font: 400 16px proxima-nova-semibold,Arial,"Nimbus Sans L",Helvetica,sans-serif;
+  border-radius: 18px;
+}
+
+.button,
+.language-list a,
+.social,
+input,
+select {
+  vertical-align: middle;
+}
+
+.button,
+.footer-contacts,
+.footer-copyright,
+.form_title,
+.nav-xs_list-item,
+.social,
+.to-top {
+  text-align: center;
+}
+
+a {
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: 0 0;
+  text-decoration: none;
+}
+
+a, hr, input, select, textarea {
+  margin: 0;
 }
