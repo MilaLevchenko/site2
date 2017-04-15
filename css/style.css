@@ -85,14 +85,26 @@
 .workhidden {
   padding: 0.5%;
 }
+h2 {
+  margin-top: 7%;
+}
+
+
+
+/*send*/
 #send {
   text-align: center;
   padding-top: 5%;
 }
-
-h2 {
-  margin-top: 7%;
+label {
+  font-weight: 400;
 }
+.sendbox {
+  text-align: left;
+}
+
+
+/*footer*/
 footer {
   text-align: center;
   background:#2a2a2a;
@@ -161,4 +173,12 @@ footer a:focus {
 .footer-copyright {
   padding-top: 1%;
   color: #696969;
+}
+
+#toTop {
+  position: fixed;
+  bottom: 20px;
+  left: 15px;
+  cursor: pointer;
+  display: none;
 }
