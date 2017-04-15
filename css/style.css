@@ -7,7 +7,7 @@
   font-style: normal;
   font-weight: normal;
 }
-div {
+/*div {
   margin: 0;
   padding: 0;
   border: 0;
@@ -16,7 +16,7 @@ div {
   vertical-align: baseline;
   background: 0 0;
   display: block;
-}
+}*/
 
 body {
   font-family: "UbuntuRegular", "Open Sans", Arial, sans-serif;
@@ -213,14 +213,14 @@ footer a:focus {
   width:100%;
  z-index: 1;
 }
-.owl-carousel .owl-nav .owl-prev,
-.owl-carousel .owl-nav .owl-next {
+.hero-box .owl-nav .owl-prev,
+.hero-box .owl-nav .owl-next {
   position: absolute;
   display: block;
-  top: 70%;
+  top: 50%;
   background: 0 0;
   font-size: 52px;
-  color: #fff;
+  color: #ffffff;
   opacity: .25;
   padding: 0;
   margin-top: -26px;
@@ -239,13 +239,7 @@ footer a:focus {
   margin-left: 518px;
 }
 
-.owl-theme .owl-dots {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding-bottom: 15px;
-}
+
 .mod-project {
   background-image: url("../images/banner.jpg");
 }
@@ -369,4 +363,33 @@ a {
 
 a, hr, input, select, textarea {
   margin: 0;
+}
+
+.hero-box .owl-dot {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  padding: 0;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  margin-right: 6px;
+  margin-left: 6px;
+  -webkit-transition: background-color .2s ease;
+  transition: background-color .2s ease;
+  overflow: hidden;
+  cursor: pointer;
+  outline: 0;
+}
+
+.hero-box .owl-dot.active, .task-item {
+  background-color: #fff;
+}
+.hero-box .owl-dots {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 35px;
 }
