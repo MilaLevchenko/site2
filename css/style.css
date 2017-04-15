@@ -481,3 +481,88 @@ a, hr, input, select, textarea {
   display: table;
   clear: both;
 }
+@media (max-width: 1199px) {
+  .approach {
+    padding-top: 62px;
+    padding-bottom: 57px;
+  }
+}
+@media (max-width: 991px) {
+  .approach {
+    background-image: none;
+    padding-top: 40px;
+    padding-bottom: 46px;
+  }
+}
+@media (max-width: 1199px) {
+  .box {
+    max-width: 934px;
+  }
+}
+@media (max-width: 767px) {
+  .box {
+    max-width: 320px;
+  }
+}
+@media (max-width: 1199px) {
+  .approach_content {
+    width: 720px;
+    margin: auto;
+  }
+}
+@media (max-width: 991px) {
+  .approach_content {
+    width: 100%;
+  }
+}
+@media (max-width: 1199px) {
+  .approach .title {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 991px) {
+  .approach .title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1199px) {
+  .approach_dscr {
+    margin-top: 43px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 1199px) {
+  .approach_group {
+    margin-top: 65px;
+  }
+}
+@media (max-width: 991px) {
+  .approach_group {
+    margin-top: 49px;
+  }
+}
+@media (max-width: 1199px) {
+  .approach_item:first-child {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 1199px) {
+  .approach_item {
+    float: none;
+    width: 100%;
+    height: 94px;
+    margin-left: 0;
+    margin-top: 68px;
+  }
+}
+@media (max-width: 991px) {
+    .approach_item {
+      height: 112px;
+      margin-top: 55px;
+      padding-right: 20px;
+      padding-left: 20px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  }
