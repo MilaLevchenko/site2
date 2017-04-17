@@ -137,13 +137,25 @@ footer a:focus {
   color: #629637;
 }
 
-@media (max-width: 986px) {
+@media (max-width: 1084px) {
   .footer-contacts .social .icon-g,
-  .footer-contacts .social .icon-so
+  .footer-contacts .social .icon-so,
+  .footer-contacts .social .icon-li
+
   {
     display: none;
   }
 }
+@media (max-width: 767px) {
+  .footer-contacts .social .icon-g,
+  .footer-contacts .social .icon-so,
+  .footer-contacts .social .icon-li
+
+  {
+    display: inline-block;
+  }
+}
+
 @media (max-width: 767px) {
   .footer-contacts .social,
   .footer-contacts .my-phone,
