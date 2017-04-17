@@ -27,3 +27,13 @@ $(document).ready(function(){
   });
 });
 
+/*
+/!*vdfbhfgh   *!/
+$(document).ready(function(){
+  var o=$(".js-owl-testimonials");
+  o.on("initialized.owl.carousel",function(){
+    $(".testimonials_group").removeClass("hidden"),
+        $(".testimonials .loader").addClass("is-hidden")
+  }),
+  o.length&&o.owlCarousel({
+    items:1,nav:!0,dots:!1,loop:!0})});*/

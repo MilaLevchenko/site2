@@ -13,42 +13,79 @@
 </head>
 <body>
 <!-- Основной контейнер -->
-<div class="container">
-
-  <!--nav-->
-  <div class="row">
-    <nav class="navbar navbar-default navbar-static-top" role="navigation">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-menu">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse" id="bs-menu">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Главная</a></li>
-          <li><a href="#services">Услуги</a></li>
-          <li><a href="#method">Наш методы</a></li>
-          <li><a href="#work">Проекты</a></li>
-        </ul>
-
-        <ul class="nav navbar-nav navbar-right" role="search">
-          <li>
-            <form class="navbar-form">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Введите значение">
-              </div>
-              <button type="search" class="btn btn-default">Поиск</button>
-            </form>
-          </li>
-        </ul>
-
-
-      </div>
+<header class="header js-header">
+  <div class="box">
+    <a href="" class="logo">
+      <img src="images/number3.png" alt="logo">
+    </a>
+    <a href="" class="logo-symbol">
+      <img src="images/number3.png" alt="logo">
+    </a>
+    <nav class="nav js-nav">
+      <ul class="nav_list js-nav-list">
+        <li class="nav_list-item">
+          <a href="#">Проекты</a>
+        </li>
+        <li class="nav_list-item mod-sublist-inside js-nav-sublist-inside">
+          <a class="js-nav-open-sublist" href="#">Услуги</a>
+          <ul class="nav_sublist js-nav-sublist">
+            <li class="nav_sublist-item">
+              <a href="#">ВЕБ-РЕШЕНИЯ</a>
+            </li>
+            <li class="nav_sublist-item">
+              <a href="#">Мобильные приложения</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav_list-item mod-sublist-inside js-nav-sublist-inside">
+          <a class="js-nav-open-sublist" href="#">Компания</a>
+          <ul class="nav_sublist js-nav-sublist">
+            <li class="nav_sublist-item">
+              <a href="#">Вакансии</a>
+            </li>
+            <li class="nav_sublist-item">
+              <a href="#">Обучение</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav_list-item">
+          <a href="#">Блог</a>
+        </li>
+        <li class="nav_list-item">
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
     </nav>
+    <nav class="nav-xs js-nav-xs">
+      <ul class="nav-xs_list js-nav-xs-list">
+       <li class="nav-xs_list-item"><a href="#">Проекты</a></li>
+       <li class="nav-xs_list-item"><a href="">Услуги</a></li>
+       <li class="nav-xs_list-item"><a href="">Веб-решения</a></li>
+       <li class="nav-xs_list-item"><a href="">мобильные приложения</a></li>
+       <li class="nav-xs_list-item"><a href="">Компания</a></li>
+       <li class="nav-xs_list-item"><a href="">Вакансии</a></li>
+       <li class="nav-xs_list-item"><a href="">Обучение</a></li>
+       <li class="nav-xs_list-item"><a href="">Блог</a></li>
+       <li class="nav-xs_list-item"><a href="">Контакты</a></li>
+       <li class="nav-xs_list-item mod-language"><a href="/" class="mod-lang-en">Switch to English</a></li>
+      </ul>
+    </nav>
+    <div class="language-list mod-language">
+      <a href="/ru" class="mod-lang-ru is-active">рус</a>
+      <a href="/" class="mod-lang-en">eng</a>
+    </div>
+    <button type="button" class="button mod-border mod-albinos js-modal-open" data-target="project">Оставить заявку</button>
+    <button type="button" class="nav-toggle js-nav-xs-toggle is-active">
+      <span class="line"></span>
+    </button>
   </div>
+
+</header>
+
+
+
+
+<div class="container">
 
   <!--owl carousel-->
   <div class="row">
